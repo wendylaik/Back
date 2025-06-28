@@ -76,3 +76,12 @@ exports.getTeacherbyPassword = async (req, res) => {
   }
 };
 
+module.exports ={
+  getTeacherById,
+  getTeacherbyPassword,
+  getAllTeachers,
+  createTeacher,
+  updateTeacher,
+  deleteTeacher
+}
+
